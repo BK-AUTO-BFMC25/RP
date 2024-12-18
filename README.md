@@ -8,3 +8,23 @@ The project contains all the provided code for the RPi, more precisely:
 
 ## The documentation is available in more details here:
 [Documentation](https://bosch-future-mobility-challenge-documentation.readthedocs-hosted.com/)
+
+
+
+Installation on RPi 5(RPios Lite Version 12 (bookworm) 64-bit)
+
+Step 1: Install git
+```sh
+sudo apt-get install git
+```
+Step 2: Clone the repository
+```sh
+git clone https://github.com/ECC-BFMC/Brain 
+cd Brain
+```
+Step 3: Install the python venv
+```sh
+sudo apt-get install python3-venv
+python3 -m venv venv
+source venv/bin/activate
+```
